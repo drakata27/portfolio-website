@@ -1,10 +1,17 @@
-import { Button } from "@/components/ui/button";
+import About from "@/components/About";
+import Education from "@/components/Education";
 
 export default function Home() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <Button className="dark:bg-dark light:bg-white">Demo</Button>
-    </>
+    <div className="ml-[20px] mr-[20px] sm:ml-[30px] sm:mr-[30px] md:ml-[100px] md:mr-[100px] lg:ml-[200px] lg:mr-[200px] xl:ml-[300px] xl:mr-[300px]">
+      <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex-1">
+          <About />
+        </div>
+        <div className="flex-1">
+          <Education />
+        </div>
+      </div>
+    </div>
   );
 }
