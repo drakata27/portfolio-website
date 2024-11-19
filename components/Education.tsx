@@ -3,7 +3,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -13,7 +12,7 @@ import curriculum from "../data/curriculum.json";
 
 const Education = () => {
   return (
-    <Card>
+    <Card className="transform transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-lg">
       <CardHeader>
         <CardTitle>Education</CardTitle>
       </CardHeader>
@@ -21,16 +20,13 @@ const Education = () => {
         <Code className="mr-2" />
         Computer Science
       </CardContent>
-      <CardContent className="flex">
+      <CardContent className="">
         <GraduationCap className="mr-2" />
         University of West London
+        <p className="text-sm">2022 - 2026</p>
       </CardContent>
 
-      <CardDescription className="ml-[30px]">
-        <p>2022 - 2026</p>
-      </CardDescription>
-
-      <CardFooter className="flex flex-col gap-2 items-start">
+      <CardDescription className="flex flex-col gap-2 items-start ml-3 mt-[-15px] mb-2">
         <div className="col-1 space-x-2 space-y-[5.5px]">
           {curriculum.units.map((unit, id) => (
             <Badge key={id} variant="outline">
@@ -38,7 +34,7 @@ const Education = () => {
             </Badge>
           ))}
         </div>
-      </CardFooter>
+      </CardDescription>
     </Card>
   );
 };

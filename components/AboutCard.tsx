@@ -13,7 +13,7 @@ import AboutPicture from "./AboutPicture";
 
 const AboutCard = () => {
   return (
-    <div className="flex">
+    <div className="flex transform transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-lg">
       <Card>
         <CardHeader>
           <CardTitle>About</CardTitle>

@@ -3,7 +3,7 @@ import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <AboutCard />
     </div>
   );

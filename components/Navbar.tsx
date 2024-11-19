@@ -1,67 +1,3 @@
-// "use client";
-
-// import React, { useState } from "react";
-// import Link from "next/link";
-// import { Button } from "./ui/button";
-// import { ExternalLink, Menu } from "lucide-react";
-// import { ModeToggle } from "./ModeToggle";
-
-// export default function Navbar() {
-//   const [menuOpen, setMenuOpen] = useState(false);
-
-//   return (
-//     <header className="px-5 py-3 shadow-sm">
-//       <nav className="flex justify-between items-center">
-//         {/* Logo */}
-//         <Link href="/">
-//           <span className="text-xl font-bold">&lt;aleksdraka /&gt;</span>
-//         </Link>
-
-//         {/* Desktop Menu */}
-// <div className="hidden md:flex items-center gap-4">
-//   <ModeToggle />
-//   <Link href="#about">About</Link>
-//   <Link href="#experience">Experience</Link>
-//   <Link href="#skills">Skills</Link>
-//   <Link href="#projects">Projects</Link>
-//   <Link href="#contact">Contact</Link>
-//   <Link href="https://blog.aleksdraka.online" target="blank">
-//     <Button>
-//       Blog <ExternalLink />
-//     </Button>
-//   </Link>
-// </div>
-
-//         {/* Hamburger Menu */}
-//         <button
-//           className="md:hidden p-2"
-//           onClick={() => setMenuOpen(!menuOpen)}
-//           aria-label="Toggle Menu"
-//         >
-//           <Menu />
-//         </button>
-//       </nav>
-
-//       {/* Mobile Dropdown Menu */}
-//       {menuOpen && (
-//         <div className="md:hidden flex flex-col items-center gap-2 mt-3  p-4 rounded shadow">
-//           <ModeToggle />
-//           <Link href="#about">About</Link>
-//           <Link href="#experience">Experience</Link>
-//           <Link href="#skills">Skills</Link>
-//           <Link href="#projects">Projects</Link>
-//           <Link href="#contact">Contact</Link>
-//           <Link href="https://blog.aleksdraka.online" target="blank">
-//             <Button>
-//               Blog <ExternalLink />
-//             </Button>
-//           </Link>
-//         </div>
-//       )}
-//     </header>
-//   );
-// }
-
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -98,7 +34,10 @@ export default function Navbar() {
     >
       <nav className="flex justify-between items-center">
         {/* Logo */}
-        <Link href="/">
+        <Link
+          className="transform transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-lg"
+          href="/"
+        >
           <span className="text-xl font-bold ">&lt;aleksdraka /&gt;</span>
         </Link>
 
@@ -109,7 +48,7 @@ export default function Navbar() {
           <Link href="#experience">Experience</Link>
           <Link href="#skills">Skills</Link>
           <Link href="#projects">Projects</Link>
-          <Link href="#about">Contact</Link>
+          <Link href="#contact">Contact</Link>
           <Link href="https://blog.aleksdraka.online" target="blank">
             <Button>
               Blog <ExternalLink />
@@ -135,7 +74,7 @@ export default function Navbar() {
           <Link href="#experience">Experience</Link>
           <Link href="#skills">Skills</Link>
           <Link href="#projects">Projects</Link>
-          <Link href="#about">Contact</Link>
+          <Link href="#contact">Contact</Link>
           <Link href="https://blog.aleksdraka.online" target="blank">
             <Button>
               Blog <ExternalLink />

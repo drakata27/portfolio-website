@@ -3,12 +3,14 @@ import React from "react";
 
 const Footer = async () => {
   return (
-    <footer className="p-6 mt-5 items-center">
+    <footer className="p-6 mt-5 items-center border-t">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Links Section */}
           <div>
-            <h3 className="font-bold text-xl mb-4">Quick Links</h3>
+            <h3 className="font-bold text-xl mb-4" id="contact">
+              Contact
+            </h3>
             <ul className="space-y-2">
               <li>
                 <Link href="https://github.com/drakata27" target="blank">
