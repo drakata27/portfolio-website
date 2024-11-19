@@ -23,6 +23,11 @@ const Footer = async () => {
                   LinkedIn
                 </Link>
               </li>
+              <li>
+                <Link href="mailto:aleks.draka02@gmail.com" target="blank">
+                  Email
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

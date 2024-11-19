@@ -1,0 +1,38 @@
+[
+  {
+    "title": "TypeScript",
+    "imageSrc": "/images/skills/ts.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "/images/skills/java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "/images/skills/python.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "/images/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/images/skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/images/skills/react.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "/images/skills/django.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "/images/skills/aws.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "/images/skills/git.png"
+  }
+]

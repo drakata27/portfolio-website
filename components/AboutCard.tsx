@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import AboutPicture from "./AboutPicture";
 
@@ -28,17 +28,19 @@ const AboutCard = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Links</p>
-          <div className="flex mt-2">
+          <p>Contact</p>
+          <div className="flex mt-2 space-x-3">
             <Link href="https://github.com/drakata27" target="blank">
               <Github />
             </Link>
             <Link
               href="https://www.linkedin.com/in/aleksandar-drakaliyski/"
               target="blank"
-              className="ml-2"
             >
               <Linkedin />
+            </Link>
+            <Link href="mailto:aleks.draka02@gmail.com" target="blank">
+              <Mail />
             </Link>
           </div>
         </CardContent>
