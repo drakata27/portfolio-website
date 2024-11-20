@@ -12,7 +12,7 @@ export default function Home() {
   useGSAP(() => {
     gsap.to("#hero", {
       opacity: 1,
-      delay: 0.1,
+      delay: 0.2,
     });
     gsap.to("#content-section", {
       opacity: 1,
