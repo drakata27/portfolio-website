@@ -20,8 +20,10 @@ const AboutCard = () => {
           <CardDescription className="flex">
             <div className="">
               <p className="">
-                I am a Computer Science at the University of West London,
-                currently working at NBCUniversal as a Media Technology Intern
+                I am a <strong>Computer Science</strong> student at the{" "}
+                <strong>University of West London</strong>, currently working at{" "}
+                <strong>NBCUniversal</strong> as a{" "}
+                <strong>Media Technology Intern</strong>
               </p>
             </div>
             <AboutPicture />

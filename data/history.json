@@ -5,7 +5,7 @@
     "startDate": "Jul, 2024",
     "endDate": "Present",
     "experiences": [
-      "Unit testing React application with Jest and RTL",
+      "Unit testing React application with Vitest, Jest and RTL",
       "Monitoring and reviewing pull requests on GitHub",
       "Running daily Scrum meetings",
       "Recording automation regression test results"
@@ -25,7 +25,7 @@
       "Engaged in problem-solving discussions within the team to find practical solutions"
     ],
     "imageSrc": "images/history/bn.jpg",
-    "location": "London, United Kingdom",
+    "location": "Remote",
     "skills": ["Problem-Solving", "Teamwork", "Research"]
   },
   {
@@ -39,7 +39,7 @@
       "Worked with fellow students to communicate complex ideas effectively"
     ],
     "imageSrc": "images/history/spotify.png",
-    "location": "London, United Kingdom",
+    "location": "Remote",
     "skills": ["Data Visualisation", "Communication", "Research"]
   }
 ]

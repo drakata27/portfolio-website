@@ -21,8 +21,10 @@ const Education = () => {
         Computer Science
       </CardContent>
       <CardContent className="">
-        <GraduationCap className="mr-2" />
-        University of West London
+        <div className="flex">
+          <GraduationCap className="mr-2 mb-3" />
+          University of West London
+        </div>
         <p className="text-sm">2022 - 2026</p>
       </CardContent>
 

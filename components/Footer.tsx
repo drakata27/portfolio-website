@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = async () => {
   return (
@@ -11,9 +12,14 @@ const Footer = async () => {
             <h3 className="font-bold text-xl mb-4" id="contact">
               Contact
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-4">
               <li>
-                <Link href="https://github.com/drakata27" target="blank">
+                <Link
+                  href="https://github.com/drakata27"
+                  target="blank"
+                  className="flex"
+                >
+                  <Github className="mr-2" />
                   GitHub
                 </Link>
               </li>
@@ -21,12 +27,19 @@ const Footer = async () => {
                 <Link
                   href="https://www.linkedin.com/in/aleksandar-drakaliyski/"
                   target="blank"
+                  className="flex"
                 >
+                  <Linkedin className="mr-2" />
                   LinkedIn
                 </Link>
               </li>
               <li>
-                <Link href="mailto:aleks.draka02@gmail.com" target="blank">
+                <Link
+                  href="mailto:aleks.draka02@gmail.com"
+                  target="blank"
+                  className="flex"
+                >
+                  <Mail className="mr-2" />
                   Email
                 </Link>
               </li>
