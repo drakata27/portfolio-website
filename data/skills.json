@@ -24,6 +24,10 @@
     "imageSrc": "/images/skills/react.png"
   },
   {
+    "title": "Spring Boot",
+    "imageSrc": "/images/skills/spring-boot.png"
+  },
+  {
     "title": "Django",
     "imageSrc": "/images/skills/django.png"
   },
