@@ -6,13 +6,14 @@
     "endDate": "Present",
     "experiences": [
       "Unit testing React application with Vitest, Jest and RTL",
-      "Monitoring and reviewing pull requests on GitHub",
+      "Monitoring pull requests on GitHub",
       "Running daily Scrum meetings",
+      "Presenting metrics",
       "Recording automation regression test results"
     ],
     "imageSrc": "images/history/nbcu.png",
     "location": "London, United Kingdom",
-    "skills": ["React", "TypeScript", "Unit Testing", "Agile"]
+    "skills": ["React", "TypeScript", "Unit Testing", "Git", "Agile"]
   },
   {
     "role": "Technology Intern",

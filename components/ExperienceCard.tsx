@@ -58,8 +58,8 @@ const ExperienceCard = ({
             </ul>
           </CardContent>
           <CardFooter className="text-sm space-x-2">
-            {location === "Remote" ? <span>💻</span> : <>📍</>}
-            <p className="font-bold text-gray-500">{location}</p>
+            {location === "Remote" ? <>💻</> : <>📍</>}
+            <p className="font-bold text-gray-500 ml-2">{location}</p>
           </CardFooter>
           <div className="space-x-3 mb-3 ml-3">
             {skills.map((skill, id) => (

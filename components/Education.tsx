@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Code, GraduationCap } from "lucide-react";
+import { Calendar, Code, GraduationCap } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import curriculum from "../data/curriculum.json";
 
@@ -20,12 +20,15 @@ const Education = () => {
         <Code className="mr-2" />
         Computer Science
       </CardContent>
-      <CardContent className="">
-        <div className="flex">
+      <CardContent className="mb-3">
+        <div className="flex mb-3">
           <GraduationCap className="mr-2 mb-3" />
           University of West London
         </div>
-        <p className="text-sm">2022 - 2026</p>
+        <p className="text-sm flex">
+          <Calendar className="mr-2" />
+          2022 - 2026
+        </p>
       </CardContent>
 
       <CardDescription className="flex flex-col gap-2 items-start ml-3 mt-[-15px] mb-2">
