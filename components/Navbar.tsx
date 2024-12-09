@@ -34,7 +34,7 @@ export default function Navbar() {
     >
       <nav className="flex justify-between items-center">
         {/* Logo */}
-        <Link className="hover-animation-2" href="/">
+        <Link className="hover-animation-2" href="#about">
           <span className="text-xl font-bold ">&lt;aleksdraka /&gt;</span>
         </Link>
 
