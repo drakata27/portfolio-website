@@ -30,7 +30,7 @@ const ProjectCard = ({
   source,
 }: ProjectProps) => {
   return (
-    <div className="m-3 transform transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg">
+    <div className="m-3 hover-animation">
       <Card className="p-4">
         <Image
           src={imageSrc}
