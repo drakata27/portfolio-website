@@ -33,7 +33,7 @@ const ExperienceCard = ({
   skills,
 }: ExperienceProps) => {
   return (
-    <div className="mt-4 flex flex-wrap transform transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-lg">
+    <div className="mt-4 flex flex-wrap hover-animation">
       <Card className="flex w-full flex-wrap sm:flex-nowrap">
         <Avatar className="size-[125px] border hidden sm:block mt-3 ml-5">
           <AvatarImage src={imageSrc} />

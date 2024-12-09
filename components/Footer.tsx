@@ -17,7 +17,7 @@ const Footer = async () => {
                 <Link
                   href="https://github.com/drakata27"
                   target="blank"
-                  className="flex"
+                  className="flex hover-animation"
                 >
                   <Github className="mr-2" />
                   GitHub
@@ -27,7 +27,7 @@ const Footer = async () => {
                 <Link
                   href="https://www.linkedin.com/in/aleksandar-drakaliyski/"
                   target="blank"
-                  className="flex"
+                  className="flex hover-animation"
                 >
                   <Linkedin className="mr-2" />
                   LinkedIn
@@ -37,7 +37,7 @@ const Footer = async () => {
                 <Link
                   href="mailto:aleks.draka02@gmail.com"
                   target="blank"
-                  className="flex"
+                  className="flex hover-animation"
                 >
                   <Mail className="mr-2" />
                   Email
