@@ -55,10 +55,12 @@ const ProjectCard = ({
         </CardContent>
         <CardFooter>
           <Link href={source} target="blank">
-            <Button variant="link">Source</Button>
+            <Button variant="link" className="font-bold">
+              Source
+            </Button>
           </Link>
           <Link href={demo} target="blank">
-            <Button>Demo</Button>
+            <Button className="font-bold">Demo</Button>
           </Link>
         </CardFooter>
       </Card>
