@@ -18,7 +18,7 @@ const Education = () => {
       </CardHeader>
       <CardContent className="flex">
         <Code className="mr-2" />
-        Computer Science
+        BSc (Hons) Computer Science
       </CardContent>
       <CardContent className="mb-3">
         <div className="flex mb-3">
