@@ -22,5 +22,13 @@
     "skills": ["Java", "Firebase", "Android"],
     "demo": "https://www.youtube.com/watch?v=kpEMa3tU7Ns",
     "source": "https://github.com/drakata27/android-ecommerce"
+  },
+  {
+    "title": "Chatroom",
+    "imageSrc": "/images/projects/chatroom.png",
+    "description": "This is a chat application that allows for real time communication.",
+    "skills": ["React", "Spring Boot", "WebSockets"],
+    "demo": "",
+    "source": "https://github.com/drakata27/chatroom-react"
   }
 ]
