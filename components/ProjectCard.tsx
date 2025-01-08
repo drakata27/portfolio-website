@@ -11,6 +11,7 @@ import { Badge } from "./ui/badge";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { ExternalLink, Github } from "lucide-react";
 
 type ProjectProps = {
   title: string;
@@ -54,14 +55,19 @@ const ProjectCard = ({
           </div>
         </CardContent>
         <CardFooter>
-          <Link href={source} target="blank">
-            <Button variant="link" className="font-bold">
-              Source
-            </Button>
-          </Link>
-          <Link href={demo} target="blank">
-            <Button className="font-bold">Demo</Button>
-          </Link>
+          <div className="space-x-4">
+            <Link href={source} target="blank">
+              <Button variant="link" className="font-bold border">
+                Source <Github />
+              </Button>
+            </Link>
+
+            <Link href={demo} target="blank">
+              <Button className="hover-animation">
+                Demo <ExternalLink />
+              </Button>
+            </Link>
+          </div>
         </CardFooter>
       </Card>
     </div>
