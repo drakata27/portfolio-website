@@ -31,7 +31,7 @@ const ProjectCard = ({
   source,
 }: ProjectProps) => {
   return (
-    <div className="m-3 hover-animation">
+    <div className="m-3">
       <Card className="p-4">
         <Image
           src={imageSrc}
