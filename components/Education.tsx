@@ -12,7 +12,7 @@ import curriculum from "../data/curriculum.json";
 
 const Education = () => {
   return (
-    <Card className="hover-animation">
+    <Card className="hover-animation h-full">
       <CardHeader>
         <CardTitle>Education</CardTitle>
       </CardHeader>

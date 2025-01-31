@@ -31,14 +31,14 @@ const ProjectCard = ({
   source,
 }: ProjectProps) => {
   return (
-    <div className="m-3">
-      <Card className="p-4">
+    <div className="m-2 h-full">
+      <Card className="p-4 mt-3 text-center flex flex-col items-center h-full">
         <Image
           src={imageSrc}
           alt={title}
           height={200}
           width={200}
-          className="rounded-xl"
+          className="rounded-xl mt-3"
         />
 
         <CardHeader>
