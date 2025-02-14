@@ -47,7 +47,7 @@ const AboutCard = () => {
           </div>
         </CardContent>
         <CardFooter>
-          <p>📍London, United Kingdom</p>
+          <p className="font-bold text-gray-500">📍London, United Kingdom</p>
         </CardFooter>
       </Card>
     </div>

@@ -8,9 +8,16 @@ const Skills = () => {
       <h1 className="heading" id="skills">
         Skills
       </h1>
-      {skills.map((skill, id) => (
-        <SkillCard key={id} title={skill.title} imageSrc={skill.imageSrc} />
-      ))}
+      <div className="flex flex-wrap">
+        {skills.map((skill, id) => (
+          <SkillCard
+            key={id}
+            title={skill.title}
+            imageSrc={skill.imageSrc}
+            id={id}
+          />
+        ))}
+      </div>
     </div>
   );
 };
