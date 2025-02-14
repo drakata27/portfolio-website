@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = async () => {
   return (
-    <footer className="p-6 mt-5 items-center border-t">
+    <footer className="p-6 mt-10 items-center border-t">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Links Section */}
