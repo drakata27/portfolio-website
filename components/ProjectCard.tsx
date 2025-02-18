@@ -38,7 +38,7 @@ const ProjectCard = ({
           alt={title}
           height={200}
           width={200}
-          className="rounded-xl mt-3"
+          className="rounded mt-3"
         />
 
         <CardHeader>

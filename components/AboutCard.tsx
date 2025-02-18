@@ -18,8 +18,8 @@ const AboutCard = () => {
         <CardHeader>
           <CardTitle>About</CardTitle>
           <CardDescription className="flex">
-            <div className="">
-              <p className="">
+            <div>
+              <p className="p-2">
                 I am a <strong>Computer Science</strong> student at the{" "}
                 <strong>University of West London</strong>, currently working at{" "}
                 <strong>NBCUniversal</strong> as a{" "}

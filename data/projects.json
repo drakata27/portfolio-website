@@ -30,5 +30,13 @@
     "skills": ["Java", "Firebase", "Android"],
     "demo": "https://www.youtube.com/watch?v=kpEMa3tU7Ns",
     "source": "https://github.com/drakata27/android-ecommerce"
+  },
+  {
+    "title": "Ecommerce API",
+    "imageSrc": "/images/projects/project.png",
+    "description": "This is an API that completes user purchases via integration with Stripe.",
+    "skills": ["Stripe API", "Spring Boot", "JWT"],
+    "demo": "https://github.com/drakata27/ecommerce-api",
+    "source": "https://github.com/drakata27/ecommerce-api"
   }
 ]
