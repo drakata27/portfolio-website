@@ -1,11 +1,10 @@
 [
   {
-    "title": "SkyLearning",
-    "imageSrc": "/images/projects/skylearning.png",
-    "description": "This is a cloud web app made to help you learn new skills.",
-    "skills": ["NextJS", "React", "Spring"],
-    "demo": "https://skylearning.xyz",
-    "source": "https://github.com/drakata27/cloud-learn"
+    "title": "GymZy",
+    "imageSrc": "/images/projects/gymzy.png",
+    "description": "iOS native app for workout tracking with stats.",
+    "skills": ["Swift", "SwiftUI", "iOS"],
+    "demo": "https://apps.apple.com/gb/app/gymzy-workout-tracker-notes/id6744414533"
   },
   {
     "title": "Chatroom",

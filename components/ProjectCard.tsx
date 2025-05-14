@@ -19,7 +19,7 @@ type ProjectProps = {
   description: string;
   skills: string[];
   demo: string;
-  source: string;
+  source?: string;
 };
 
 const ProjectCard = ({
@@ -56,11 +56,13 @@ const ProjectCard = ({
         </CardContent>
         <CardFooter>
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-            <Link href={source} target="blank">
-              <Button variant="link" className="font-bold border">
-                Source <Github />
-              </Button>
-            </Link>
+            {source && (
+              <Link href={source} target="blank">
+                <Button variant="link" className="font-bold border">
+                  Source <Github />
+                </Button>
+              </Link>
+            )}
 
             <Link href={demo} target="blank">
               <Button className="hover-animation">
