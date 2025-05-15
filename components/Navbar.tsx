@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Button } from "./ui/button";
-import { ExternalLink, Menu } from "lucide-react";
+// import { Button } from "./ui/button";
+import { Menu } from "lucide-react";
 import { ModeToggle } from "./ModeToggle";
 
 export default function Navbar() {
