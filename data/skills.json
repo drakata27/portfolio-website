@@ -8,6 +8,10 @@
     "imageSrc": "/images/skills/java.png"
   },
   {
+    "title": "Swift",
+    "imageSrc": "/images/skills/swift.png"
+  },
+  {
     "title": "Python",
     "imageSrc": "/images/skills/python.png"
   },
@@ -28,8 +32,8 @@
     "imageSrc": "/images/skills/spring-boot.png"
   },
   {
-    "title": "AWS",
-    "imageSrc": "/images/skills/aws.png"
+    "title": "SwiftUI",
+    "imageSrc": "/images/skills/swiftui.png"
   },
   {
     "title": "Git",

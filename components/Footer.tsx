@@ -53,13 +53,6 @@ const Footer = async () => {
             &copy; 2024 - {new Date().getFullYear()} Aleksandar Drakaliyski. All
             rights reserved.
           </p>
-          <Link
-            href="https://github.com/drakata27/portfolio-website"
-            className="text-gray-500 underline"
-            target="blank"
-          >
-            Source code of this website
-          </Link>
         </div>
       </div>
     </footer>
