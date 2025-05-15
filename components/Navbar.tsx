@@ -61,9 +61,9 @@ export default function Navbar() {
             href="https://blog.aleksdraka.online"
             target="blank"
           >
-            <Button className="hover-animation">
+            {/* <Button className="hover-animation">
               Blog <ExternalLink />
-            </Button>
+            </Button> */}
           </Link>
         </div>
 
@@ -86,11 +86,11 @@ export default function Navbar() {
           <Link href="#skills">Skills</Link>
           <Link href="#projects">Projects</Link>
           <Link href="#contact">Contact</Link>
-          <Link href="https://blog.aleksdraka.online" target="blank">
+          {/* <Link href="https://blog.aleksdraka.online" target="blank">
             <Button>
               Blog <ExternalLink />
             </Button>
-          </Link>
+          </Link> */}
         </div>
       )}
     </header>
