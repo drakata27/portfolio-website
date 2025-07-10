@@ -19,7 +19,7 @@
     "imageSrc": "/images/projects/blog.png",
     "description": "This is a blog website where I write about my interest in technology.",
     "skills": ["NextJS", "React", "JavaScript"],
-    "demo": "https://blog.aleksdraka.online/",
+    "demo": "https://blog.aleksdraka.com/",
     "source": "https://github.com/drakata27/blog-v2"
   },
   {
