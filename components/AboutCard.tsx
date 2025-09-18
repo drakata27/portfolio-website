@@ -21,8 +21,8 @@ const AboutCard = () => {
             <div>
               <p className="p-2">
                 I am a <strong>Computer Science</strong> student at the{" "}
-                <strong>University of West London</strong>, currently working at{" "}
-                <strong>NBCUniversal</strong> as a{" "}
+                <strong>University of West London</strong> with experience
+                working at <strong>NBCUniversal</strong> as a{" "}
                 <strong>Media Technology Intern</strong>
               </p>
             </div>
